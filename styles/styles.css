@@ -1029,12 +1029,15 @@ canvas {
 } */
 
 .col-sm-8 {
-    padding-left: 120px;
+    padding-left: 130px;
     
+} 
+.col-sm-8.project {
+    margin-bottom: 20px; /* Adjust the value as needed */
 }
-/* @media (min-width: 1000px) {
+/* @media (max-width: 820px) {
     .col-sm-8 {
-        padding-left: 130px;
+        padding-left: 30px;
     }
 } */
 
@@ -1051,7 +1054,7 @@ canvas {
     margin-bottom: 15px;
 } */
 
-@media (max-width: 820px) {
+@media (max-width: 520px) {
     /* .col-lg-10, .col-md-8 {
         padding-left: 10px;
         text-align: left;
@@ -1061,20 +1064,46 @@ canvas {
         text-align: center;
     } */
 
-    .col-sm-8 {
-        padding-left: 10;
+    .col-lg-10, .col-md-8 {
+        padding-left: 0px;
         text-align: left;
-        /* margin-left: 0; */
+        margin-left: 0px;
+        margin-bottom: 30px;
     }
 
-    .col-lg-10, .col-md-8 {
-        padding-left: 0;
-        text-align: left;
-        margin-left: 0;
+    .col-sm-8 {
+        padding-left: 30px;
     }
 
     .col-sm-4 {
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
+}
+
+/* More/Less button for widgets */
+.collapse.in { 
+    display: inline !important; 
+}
+
+/* Change the color of all links to blue */
+a {
+    color: blue;
+}
+
+/* Optionally, you can add a hover effect */
+a:hover {
+    color: darkblue;
+}
+
+h2.mb-5 {
+    font-size: 24px; /* Adjust the value as needed */
+}
+
+h2.name {
+    font-family: 'Open Sans Bold', sans-serif;
+}
+
+.row.mb-4.other {
+    margin-left: 10px;
 }
