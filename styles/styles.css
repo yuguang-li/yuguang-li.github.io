@@ -1054,7 +1054,7 @@ canvas {
     margin-bottom: 15px;
 } */
 
-@media (max-width: 520px) {
+@media (max-width: 620px) {
     /* .col-lg-10, .col-md-8 {
         padding-left: 10px;
         text-align: left;
@@ -1069,7 +1069,7 @@ canvas {
         text-align: left;
         margin-left: 0px;
         margin-bottom: 30px;
-    }
+    } 
 
     .col-sm-8 {
         padding-left: 30px;
