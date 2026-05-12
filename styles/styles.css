@@ -1108,6 +1108,7 @@ a:hover {
 
 h2.mb-5 {
     font-size: 24px; /* Adjust the value as needed */
+    font-family: inherit;
 }
 
 h2.name {
