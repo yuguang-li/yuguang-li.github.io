@@ -324,30 +324,28 @@ code {
 }
 
 
-/* Handle for social icons */
-.social-icons .social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.70rem;
-    width: 3.70rem;
-    color: #495057; 
-    border-radius: 100%;
-    font-size: 1.5rem;
-    margin-right: 0.25rem;
-    padding-top: 4px;
-    transition: transform 0.3s;
-}
-.social-icons .social-icon:hover {
-    transform: scale(1.30);
-}
-.social-icons .social-icon:last-child {
-    margin-right: 0;
-}
-.social-icons {
+/* Profile links under the portrait */
+.profile-links {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.35rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.profile-links .divider {
+    color: #777777;
+}
+.profile-email {
+    margin-top: 0.35rem;
+    text-align: center;
+    color: #555555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    user-select: text;
+}
+.dark-theme .profile-email {
+    color: #dddddd;
 }
 
 
@@ -476,6 +474,9 @@ code {
 }
 .project {
     margin: 0px;
+}
+.project-item {
+    scroll-margin-top: 24px;
 }
 
 
